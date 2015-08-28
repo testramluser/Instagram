@@ -52,7 +52,9 @@ securedBy: [ oauth_2_0 , clientId ]
         Note: if you authenticate with an OAuth Token, you will receive the
         user_has_liked key which quickly tells you whether the current user has liked
         this media item.
-      responses: 
+      responses:
+        203:
+          
         200: 
           body: 
             application/json: 
